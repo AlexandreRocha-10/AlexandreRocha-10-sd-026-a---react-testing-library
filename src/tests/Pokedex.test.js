@@ -5,7 +5,7 @@ import { screen } from '@testing-library/react';
 import App from '../App';
 import renderWithRouter from '../utils/RenderWithRouter';
 
-describe('Teste o componente <App.js />', () => {
+describe('Teste o componente <Pokedex.js />', () => {
   it('Teste se a página contém um heading h2 com o texto Encountered Pokémon', () => {
     renderWithRouter(<App />);
 
